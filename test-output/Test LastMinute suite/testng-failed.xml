@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test LastMinute suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.TestDaoFLightsImpl">
+        <methods>
+          <include name="testGetFlights"/>
+          <include name="testDaoFlightsImpl"/>
+          <include name="testGetList"/>
+        </methods>
+      </class> <!-- tests.TestDaoFLightsImpl -->
+      <class name="tests.TestSearch">
+        <methods>
+          <include name="inicializar"/>
+        </methods>
+      </class> <!-- tests.TestSearch -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test LastMinute suite] -->

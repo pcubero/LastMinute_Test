@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_LastMinute_suite">
+              <span class="suite-name border-passed">Test LastMinute suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_LastMinute_suite">
+                    <span>C:\Users\Pedro\Documents\Empleo\LastMinute\Maven\src\test\resources\TestLastMinute_suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_LastMinute_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_LastMinute_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_LastMinute_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_LastMinute_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_LastMinute_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_LastMinute_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_LastMinute_suite" class="hide-methods passed suite-Test_LastMinute_suite"> (hide)</a> <!-- hide-methods passed suite-Test_LastMinute_suite -->
+                      <a href="#" panel-name="suite-Test_LastMinute_suite" class="show-methods passed suite-Test_LastMinute_suite"> (show)</a> <!-- show-methods passed suite-Test_LastMinute_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_LastMinute_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testDaoFlightsImpl">testDaoFlightsImpl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestSearch" hash-for-method="testFindFlights(null, MAD, 31, 1, 2, 0, [])">testFindFlights(null, MAD, 31, 1, 2, 0, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestSearch" hash-for-method="testFindFlights(BCN, null, 31, 1, 2, 0, [])">testFindFlights(BCN, null, 31, 1, 2, 0, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestSearch" hash-for-method="testFindFlights(CDG, FRA, 31, 1, 0, 0, [])">testFindFlights(CDG, FRA, 31, 1, 0, 0, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestSearch" hash-for-method="testFindFlights(AMS, FRA, 31, 1, 0, 0, [Result [airline=TK2372, price=157.60], Result [airline=TK2659, price=198.40]...)">testFindFlights(AMS, FRA, 31, 1, 0, 0, [Result [airline=TK2372, price=157.60], Result [airline=TK2659, price=198.40]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestSearch" hash-for-method="testFindFlights(null, null, 31, 1, 2, 0, [])">testFindFlights(null, null, 31, 1, 2, 0, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestSearch" hash-for-method="testFindFlights(BCN, MAD, 2, 1, 2, 0, [Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]...)">testFindFlights(BCN, MAD, 2, 1, 2, 0, [Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestSearch" hash-for-method="testFindFlights(LHR, IST, 15, 2, 1, 1, [Result [airline=TK8891, price=806.00], Result [airline=LH1085, price=481.19]...)">testFindFlights(LHR, IST, 15, 2, 1, 1, [Result [airline=TK8891, price=806.00], Result [airline=LH1085, price=481.19]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetFlights(BCN, null, [])">testGetFlights(BCN, null, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetFlights(BCN, MAD, [Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN...)">testGetFlights(BCN, MAD, [Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetFlights(AMS, FRA, [Flight [origin=AMS, destination=FRA, flightCode=TK2372, price=197.00], Flight [origin=AMS...)">testGetFlights(AMS, FRA, [Flight [origin=AMS, destination=FRA, flightCode=TK2372, price=197.00], Flight [origin=AMS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetFlights(CDG, FRA, [])">testGetFlights(CDG, FRA, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetFlights(LHR, IST, [Flight [origin=LHR, destination=IST, flightCode=TK8891, price=250.00], Flight [origin=LHR...)">testGetFlights(LHR, IST, [Flight [origin=LHR, destination=IST, flightCode=TK8891, price=250.00], Flight [origin=LHR...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetFlights(null, null, [])">testGetFlights(null, null, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetFlights(null, MAD, [])">testGetFlights(null, MAD, [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_LastMinute_suite" title="tests.TestDaoFLightsImpl" hash-for-method="testGetList">testGetList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_LastMinute_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_LastMinute_suite" class="panel Test_LastMinute_suite">
+          <div class="suite-Test_LastMinute_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindFlights(null, MAD, 31, 1, 2, 0, [])">
+                  </a> <!-- testFindFlights(null, MAD, 31, 1, 2, 0, []) -->
+                  <span class="method-name">testFindFlights</span>
+                  <span class="parameters">(<NULL>, MAD, 31, 1, 2, 0, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindFlights(BCN, null, 31, 1, 2, 0, [])">
+                  </a> <!-- testFindFlights(BCN, null, 31, 1, 2, 0, []) -->
+                  <span class="method-name">testFindFlights</span>
+                  <span class="parameters">(BCN, <NULL>, 31, 1, 2, 0, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindFlights(CDG, FRA, 31, 1, 0, 0, [])">
+                  </a> <!-- testFindFlights(CDG, FRA, 31, 1, 0, 0, []) -->
+                  <span class="method-name">testFindFlights</span>
+                  <span class="parameters">(CDG, FRA, 31, 1, 0, 0, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindFlights(AMS, FRA, 31, 1, 0, 0, [Result [airline=TK2372, price=157.60], Result [airline=TK2659, price=198.40]...)">
+                  </a> <!-- testFindFlights(AMS, FRA, 31, 1, 0, 0, [Result [airline=TK2372, price=157.60], Result [airline=TK2659, price=198.40]...) -->
+                  <span class="method-name">testFindFlights</span>
+                  <span class="parameters">(AMS, FRA, 31, 1, 0, 0, [Result [airline=TK2372, price=157.60], Result [airline=TK2659, price=198.40], Result [airline=LH5909, price=90.40]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindFlights(null, null, 31, 1, 2, 0, [])">
+                  </a> <!-- testFindFlights(null, null, 31, 1, 2, 0, []) -->
+                  <span class="method-name">testFindFlights</span>
+                  <span class="parameters">(<NULL>, <NULL>, 31, 1, 2, 0, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindFlights(BCN, MAD, 2, 1, 2, 0, [Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]...)">
+                  </a> <!-- testFindFlights(BCN, MAD, 2, 1, 2, 0, [Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]...) -->
+                  <span class="method-name">testFindFlights</span>
+                  <span class="parameters">(BCN, MAD, 2, 1, 2, 0, [Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindFlights(LHR, IST, 15, 2, 1, 1, [Result [airline=TK8891, price=806.00], Result [airline=LH1085, price=481.19]...)">
+                  </a> <!-- testFindFlights(LHR, IST, 15, 2, 1, 1, [Result [airline=TK8891, price=806.00], Result [airline=LH1085, price=481.19]...) -->
+                  <span class="method-name">testFindFlights</span>
+                  <span class="parameters">(LHR, IST, 15, 2, 1, 1, [Result [airline=TK8891, price=806.00], Result [airline=LH1085, price=481.19]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_LastMinute_suite-class-passed -->
+          <div class="suite-Test_LastMinute_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestDaoFLightsImpl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDaoFlightsImpl">
+                  </a> <!-- testDaoFlightsImpl -->
+                  <span class="method-name">testDaoFlightsImpl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFlights(BCN, null, [])">
+                  </a> <!-- testGetFlights(BCN, null, []) -->
+                  <span class="method-name">testGetFlights</span>
+                  <span class="parameters">(BCN, <NULL>, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFlights(BCN, MAD, [Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN...)">
+                  </a> <!-- testGetFlights(BCN, MAD, [Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN...) -->
+                  <span class="method-name">testGetFlights</span>
+                  <span class="parameters">(BCN, MAD, [Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN, destination=MAD, flightCode=LH5496, price=293.00]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFlights(AMS, FRA, [Flight [origin=AMS, destination=FRA, flightCode=TK2372, price=197.00], Flight [origin=AMS...)">
+                  </a> <!-- testGetFlights(AMS, FRA, [Flight [origin=AMS, destination=FRA, flightCode=TK2372, price=197.00], Flight [origin=AMS...) -->
+                  <span class="method-name">testGetFlights</span>
+                  <span class="parameters">(AMS, FRA, [Flight [origin=AMS, destination=FRA, flightCode=TK2372, price=197.00], Flight [origin=AMS, destination=FRA, flightCode=TK2659, price=248.00], Flight [origin=AMS, destination=FRA, flightCode=LH5909, price=113.00]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFlights(CDG, FRA, [])">
+                  </a> <!-- testGetFlights(CDG, FRA, []) -->
+                  <span class="method-name">testGetFlights</span>
+                  <span class="parameters">(CDG, FRA, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFlights(LHR, IST, [Flight [origin=LHR, destination=IST, flightCode=TK8891, price=250.00], Flight [origin=LHR...)">
+                  </a> <!-- testGetFlights(LHR, IST, [Flight [origin=LHR, destination=IST, flightCode=TK8891, price=250.00], Flight [origin=LHR...) -->
+                  <span class="method-name">testGetFlights</span>
+                  <span class="parameters">(LHR, IST, [Flight [origin=LHR, destination=IST, flightCode=TK8891, price=250.00], Flight [origin=LHR, destination=IST, flightCode=LH1085, price=148.00]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFlights(null, null, [])">
+                  </a> <!-- testGetFlights(null, null, []) -->
+                  <span class="method-name">testGetFlights</span>
+                  <span class="parameters">(<NULL>, <NULL>, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFlights(null, MAD, [])">
+                  </a> <!-- testGetFlights(null, MAD, []) -->
+                  <span class="method-name">testGetFlights</span>
+                  <span class="parameters">(<NULL>, MAD, [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetList">
+                  </a> <!-- testGetList -->
+                  <span class="method-name">testGetList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_LastMinute_suite-class-passed -->
+        </div> <!-- panel Test_LastMinute_suite -->
+        <div panel-name="test-xml-Test_LastMinute_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Pedro\Documents\Empleo\LastMinute\Maven\src\test\resources\TestLastMinute_suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test LastMinute suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TestDaoFLightsImpl&quot;/&gt;
+      &lt;class name=&quot;tests.TestSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Test LastMinute suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_LastMinute_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test LastMinute suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_LastMinute_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test LastMinute suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_LastMinute_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test LastMinute suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_LastMinute_suite');
+function tableData_Test_LastMinute_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetFlights')
+data.setCell(0, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(0, 3, 47);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDaoFlightsImpl')
+data.setCell(1, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(1, 3, 16);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetFlights')
+data.setCell(2, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(2, 3, 15);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testFindFlights')
+data.setCell(3, 2, 'tests.TestSearch')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetFlights')
+data.setCell(4, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testFindFlights')
+data.setCell(5, 2, 'tests.TestSearch')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetList')
+data.setCell(6, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testFindFlights')
+data.setCell(7, 2, 'tests.TestSearch')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testFindFlights')
+data.setCell(8, 2, 'tests.TestSearch')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testFindFlights')
+data.setCell(9, 2, 'tests.TestSearch')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetFlights')
+data.setCell(10, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetFlights')
+data.setCell(11, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetFlights')
+data.setCell(12, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testGetFlights')
+data.setCell(13, 2, 'tests.TestDaoFLightsImpl')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testFindFlights')
+data.setCell(14, 2, 'tests.TestSearch')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testFindFlights')
+data.setCell(15, 2, 'tests.TestSearch')
+data.setCell(15, 3, 0);
+window.suiteTableData['Test_LastMinute_suite']= { tableData: data, tableDiv: 'times-div-Test_LastMinute_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 78 ms</span>
+              <div id="times-div-Test_LastMinute_suite">
+              </div> <!-- times-div-Test_LastMinute_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_LastMinute_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test LastMinute suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_LastMinute_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_LastMinute_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">inicializar</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestDaoFLightsImpl</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDaoFlightsImpl</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetFlights(AMS, FRA, [Flight [origin=AMS, destination=FRA, flightCode=TK2372, price=197.00], Flight [origin=AMS...)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetList</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetFlights(LHR, IST, [Flight [origin=LHR, destination=IST, flightCode=TK8891, price=250.00], Flight [origin=LHR...)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetFlights(BCN, MAD, [Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN...)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetFlights(CDG, FRA, [])</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetFlights(BCN, null, [])</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetFlights(null, MAD, [])</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFindFlights(AMS, FRA, 31, 1, 0, 0, [Result [airline=TK2372, price=157.60], Result [airline=TK2659, price=198.40]...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindFlights(LHR, IST, 15, 2, 1, 1, [Result [airline=TK8891, price=806.00], Result [airline=LH1085, price=481.19]...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindFlights(BCN, MAD, 2, 1, 2, 0, [Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestDaoFLightsImpl</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetFlights(null, null, [])</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFindFlights(CDG, FRA, 31, 1, 0, 0, [])</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindFlights(BCN, null, 31, 1, 2, 0, [])</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindFlights(null, MAD, 31, 1, 2, 0, [])</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindFlights(null, null, 31, 1, 2, 0, [])</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
