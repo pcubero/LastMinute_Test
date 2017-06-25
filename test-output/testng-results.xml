@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Test LastMinute suite" duration-ms="125" started-at="2017-06-25T18:45:48Z" finished-at="2017-06-25T18:45:48Z">
+  <suite name="Test LastMinute suite" duration-ms="120" started-at="2017-06-25T20:17:51Z" finished-at="2017-06-25T20:17:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="125" started-at="2017-06-25T18:45:48Z" finished-at="2017-06-25T18:45:48Z">
+    <test name="Test" duration-ms="120" started-at="2017-06-25T20:17:51Z" finished-at="2017-06-25T20:17:51Z">
       <class name="tests.TestSearch">
-        <test-method status="PASS" signature="inicializar()[pri:0, instance:tests.TestSearch@4d3167f4]" name="inicializar" is-config="true" duration-ms="15" started-at="2017-06-25T20:45:48Z" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="inicializar()[pri:0, instance:tests.TestSearch@4d3167f4]" name="inicializar" is-config="true" duration-ms="20" started-at="2017-06-25T22:17:51Z" finished-at="2017-06-25T22:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicializar -->
-        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dpValores" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="3" started-at="2017-06-25T22:17:51Z" data-provider="dpValores" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -52,48 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindFlights -->
-        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dpValores" finished-at="2017-06-25T20:45:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BCN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MAD]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[[Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFindFlights -->
-        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dpValores" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dpValores" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -134,10 +93,12 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindFlights -->
-        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dpValores" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dpValores" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[BCN]]>
+              </value>
             </param>
             <param index="1">
               <value>
@@ -146,7 +107,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[31]]>
+                <![CDATA[2]]>
               </value>
             </param>
             <param index="3">
@@ -166,53 +127,14 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[[]]]>
+                <![CDATA[[Result [airline=IB2171, price=909.10], Result [airline=LH5496, price=1028.44]]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindFlights -->
-        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dpValores" finished-at="2017-06-25T20:45:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BCN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[31]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[[]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFindFlights -->
-        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dpValores" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dpValores" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -253,7 +175,85 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindFlights -->
-        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dpValores" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dpValores" finished-at="2017-06-25T22:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BCN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindFlights -->
+        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dpValores" finished-at="2017-06-25T22:17:51Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindFlights -->
+        <test-method status="PASS" signature="testFindFlights(java.lang.String, java.lang.String, int, int, int, int, java.util.List)[pri:0, instance:tests.TestSearch@4d3167f4]" name="testFindFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dpValores" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -292,15 +292,15 @@
         </test-method> <!-- testFindFlights -->
       </class> <!-- tests.TestSearch -->
       <class name="tests.TestDaoFLightsImpl">
-        <test-method status="PASS" signature="testDaoFlightsImpl()[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testDaoFlightsImpl" duration-ms="16" started-at="2017-06-25T20:45:48Z" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testDaoFlightsImpl()[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testDaoFlightsImpl" duration-ms="9" started-at="2017-06-25T22:17:51Z" finished-at="2017-06-25T22:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDaoFlightsImpl -->
-        <test-method status="PASS" signature="testGetList()[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetList" duration-ms="0" started-at="2017-06-25T20:45:48Z" depends-on-methods="tests.TestDaoFLightsImpl.testDaoFlightsImpl" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testGetList()[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetList" duration-ms="2" started-at="2017-06-25T22:17:51Z" depends-on-methods="tests.TestDaoFLightsImpl.testDaoFlightsImpl" finished-at="2017-06-25T22:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetList -->
-        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="47" started-at="2017-06-25T20:45:48Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="39" started-at="2017-06-25T22:17:51Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -321,68 +321,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetFlights -->
-        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T20:45:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BCN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[[]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetFlights -->
-        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T20:45:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BCN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MAD]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[[Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN, destination=MAD, flightCode=LH5496, price=293.00]]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetFlights -->
-        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T20:45:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CDG]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[FRA]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[[]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetFlights -->
-        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="2" started-at="2017-06-25T22:17:51Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -403,7 +342,68 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetFlights -->
-        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="15" started-at="2017-06-25T20:45:48Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="2" started-at="2017-06-25T22:17:51Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T22:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BCN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Flight [origin=BCN, destination=MAD, flightCode=IB2171, price=259.00], Flight [origin=BCN, destination=MAD, flightCode=LH5496, price=293.00]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFlights -->
+        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T22:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CDG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FRA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFlights -->
+        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T22:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BCN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFlights -->
+        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -422,7 +422,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetFlights -->
-        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="0" started-at="2017-06-25T20:45:48Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T20:45:48Z">
+        <test-method status="PASS" signature="testGetFlights(java.lang.String, java.lang.String, java.util.List)[pri:0, instance:tests.TestDaoFLightsImpl@5ed828d]" name="testGetFlights" duration-ms="1" started-at="2017-06-25T22:17:51Z" data-provider="dp" depends-on-methods="tests.TestDaoFLightsImpl.testGetList" finished-at="2017-06-25T22:17:51Z">
           <params>
             <param index="0">
               <value is-null="true"/>
