@@ -2,6 +2,7 @@ package entidades;
 
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Result {
 	private String airline;
@@ -9,7 +10,7 @@ public class Result {
 	
 	public Result(String airline, BigDecimal price) {
 		this.airline = airline;
-		this.price = price;
+		this.price = price.setScale(2,RoundingMode.UP);
 	}
 
 	public String getAirline() {

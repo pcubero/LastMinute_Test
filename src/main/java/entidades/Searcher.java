@@ -78,11 +78,11 @@ public class Searcher {
 
 		switch(airline){
 			case "IB": return BigDecimal.TEN.setScale(2);
-			case "BA": return new BigDecimal(15).setScale(2);
-			case "LH": return new BigDecimal(7).setScale(2);
-			case "FR": return new BigDecimal(20).setScale(2);
+			case "BA": return new BigDecimal("15.00");
+			case "LH": return new BigDecimal("7.00");
+			case "FR": return new BigDecimal("20.00");
 			case "VY": return BigDecimal.TEN.setScale(2);
-			case "TK": return new BigDecimal(5).setScale(2);
+			case "TK": return new BigDecimal("5");
 			case "U2": return new BigDecimal("19.90");
 			default  : return null;
 		}

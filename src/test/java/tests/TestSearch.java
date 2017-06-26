@@ -48,7 +48,7 @@ public class TestSearch {
 			                          new Result("TK2659",new BigDecimal("198.40")),
 			                          new Result("LH5909",new BigDecimal("90.40")));
 
-	  List<Result> res2=Arrays.asList(new Result("TK8891",new BigDecimal(806).setScale(2)),
+	  List<Result> res2=Arrays.asList(new Result("TK8891",new BigDecimal("806.00")),
               new Result("LH1085",new BigDecimal("481.19")));
 	  
 	  List<Result> res3=Arrays.asList(new Result("IB2171",new BigDecimal("909.10")),

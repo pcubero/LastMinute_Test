@@ -24,7 +24,7 @@ public class DaoFlightsImpl implements DaoFlights {
 				listFlight = new ArrayList<>();
 				while ((line = bIn.readLine()) != null) {
 					array = line.split(";");
-					listFlight.add(new Flight(array[0], array[1], array[2], new BigDecimal(array[3]).setScale(2)));
+					listFlight.add(new Flight(array[0], array[1], array[2], new BigDecimal(array[3])));
 				}
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
