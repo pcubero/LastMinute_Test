@@ -21,8 +21,10 @@ public class DaoFlightsImpl implements DaoFlights {
 
 		if(listFlight==null){
 			try (FileReader fIn = new FileReader(PATH_FILE); BufferedReader bIn = new BufferedReader(fIn);) {
-				listFlight = new ArrayList<>();
 				while ((line = bIn.readLine()) != null) {
+					
+					if(listFlight==null) listFlight = new ArrayList<>();
+					
 					array = line.split(";");
 					listFlight.add(new Flight(array[0], array[1], array[2], new BigDecimal(array[3])));
 				}
