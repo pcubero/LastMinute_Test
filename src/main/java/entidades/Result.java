@@ -17,7 +17,7 @@ public class Result {
 		return airline;
 	}
 
-	//un comentario
+	//lo cambio
 	public BigDecimal getPrice() {
 		return price;
 	}
