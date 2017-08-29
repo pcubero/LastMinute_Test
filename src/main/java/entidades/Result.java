@@ -21,6 +21,11 @@ public class Result {
 	public BigDecimal getPrice() {
 		return price;
 	}
+	
+	//pruebas
+		public BigDecimal getPrice2() {
+			return price;
+		}
 
 	@Override
 	public String toString() {
