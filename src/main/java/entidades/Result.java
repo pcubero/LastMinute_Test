@@ -23,7 +23,7 @@ public class Result {
 	}
 	
 	//pruebas
-		public BigDecimal getPrice2() {
+		public BigDecimal getPrice3() {
 			return price;
 		}
 
